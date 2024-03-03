@@ -1,0 +1,27 @@
+﻿@page
+@model ProiectBD.Pages.Departamente.DepartamenteModel
+@{
+}
+<br />
+<h2>Lista Departamente</h2>
+<br />
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Department</th>
+            <th>Nume Departament</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listDepartament)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.nume</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a class="btn btn-primary btn-sm" href="/Meniu/Meniu">Inapoi la Meniu</a>

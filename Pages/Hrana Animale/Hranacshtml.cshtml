@@ -1,0 +1,40 @@
+﻿@page
+@model ProiectBD.Pages.Hrana_Animale.HranacshtmlModel
+@{
+}
+<br />
+<h2>Lista Hrana Animale</h2>
+<br />
+<a class='btn btn-primary btn-sm' href='/Hrana Animale/Create'>Hrana Noua</a>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Denumire</th>
+            <th>Categorie</th>
+            <th>Specie Animal</th>
+            <th>Pret/Kg</th>
+            <th>Stoc Disponibil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listHrana)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.denumire</td>
+                <td>@item.categorie</td>
+                <td>@item.specie</td>
+                <td>@item.pret</td>
+                <td>@item.stoc</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Hrana Animale/Edit?id=@item.id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Hrana Animale/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a class="btn btn-primary btn-sm" href="/Meniu/Meniu">Inapoi la Meniu</a>

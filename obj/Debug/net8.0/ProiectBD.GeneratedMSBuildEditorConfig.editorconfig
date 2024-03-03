@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProiectBD
+build_property.RootNamespace = ProiectBD
+build_property.ProjectDir = C:\Users\Gabita\Desktop\AN 3 SEM 1\BD\ProiectBD\ProiectBD\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Gabita\Desktop\AN 3 SEM 1\BD\ProiectBD\ProiectBD
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Angajati/Angajati.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5nYWphdGlcQW5nYWphdGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Angajati/Informatii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5nYWphdGlcSW5mb3JtYXRpaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Animale/Animale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsZVxBbmltYWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Animale/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Animale/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Animale/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Animale/Informatii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsZVxJbmZvcm1hdGlpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Clienti/Clienti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50aVxDbGllbnRpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Clienti/Informatii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50aVxJbmZvcm1hdGlpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Comenzi/Comenzi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tZW56aVxDb21lbnppLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Comenzi/Informatii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tZW56aVxJbmZvcm1hdGlpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Departamente/Departamente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0YW1lbnRlXERlcGFydGFtZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Detalii Comenzi/Detalii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxpaSBDb21lbnppXERldGFsaWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Hrana Animale/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSHJhbmEgQW5pbWFsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Hrana Animale/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSHJhbmEgQW5pbWFsZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Hrana Animale/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSHJhbmEgQW5pbWFsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Hrana Animale/Hranacshtml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSHJhbmEgQW5pbWFsZVxIcmFuYWNzaHRtbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Login/Logincshtml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW5jc2h0bWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Meniu/Meniu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVuaXVcTWVuaXUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gabita/Desktop/AN 3 SEM 1/BD/ProiectBD/ProiectBD/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-olxpsjogex

@@ -1,0 +1,81 @@
+﻿@page
+@model ProiectBD.Pages.Hrana_Animale.CreateModel
+@{
+}
+
+<br />
+<h2>Hrana noua</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong>@Model.errorMessage</strong>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<form method="post">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">ID Hrana animal</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="id" value="@Model.hranaInfo.id" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Denumire</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="denumire" value="@Model.hranaInfo.denumire" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Categorie</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="categorie" value="@Model.hranaInfo.categorie" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Specie</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="specie" value="@Model.hranaInfo.specie" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Pret/Kg</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="pret" value="@Model.hranaInfo.pret" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Stoc Disponibil</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="stoc" value="@Model.hranaInfo.stoc" />
+        </div>
+    </div>
+
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                    <strong>@Model.successMessage</strong>
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/Hrana Animale/Hranacshtml" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,33 @@
+﻿@page
+@model ProiectBD.Pages.Comenzi.ComenziModel
+@{
+}
+
+<br />
+<h2>Lista Comenzi</h2>
+<br />
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Comanda</th>
+            <th>ID Client</th>
+            <th>ID Angajat</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listComenzi)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.idClient</td>
+                <td>@item.idAngajat</td>
+                <td>@item.total</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a class="btn btn-primary btn-sm" href="/Meniu/Meniu">Inapoi la Meniu</a>
+<a class="btn btn-primary btn-sm" href="/Comenzi/Informatii">Informatii aditionale</a>

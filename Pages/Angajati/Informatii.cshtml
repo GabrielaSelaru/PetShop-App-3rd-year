@@ -1,0 +1,57 @@
+﻿@page
+@model ProiectBD.Pages.Angajati.InformatiiModel
+@{
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<br />
+<h2>Informatii aditionale</h2>
+<br />
+<form method="post">
+    <div style="padding:20px;display: flex;margin:2%;">
+
+        <h3>
+            <label for="departamentName">Ce angajati lucreaza la departamentul de</label>
+        </h3>
+        <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <select name="SelectedDepartment" id="SelectedDepartment">
+                    <option value="IT">IT</option>
+                    <option value="Vanzari">Vanzari</option>
+                    <option value="Curatenie">Curatenie</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <button style="border-radius:10%;text-align:center" value="actiune1" name="actiune" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@if (Model.interogare1 != null && Model.interogare1.Count > 0)
+{
+    <table class="table" style="justify-content:center">
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Prenume</th>
+                <th>Nume departament</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model.interogare1)
+            {
+                <tr>
+                    <td>@employee.Nume </td>
+                    <td>@employee.Prenume</td>
+                    <td>@employee.NumeDepartament</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<a class="btn btn-primary btn-sm" href="/Meniu/Meniu">Inapoi la Meniu</a>

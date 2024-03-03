@@ -1,0 +1,44 @@
+﻿@page
+@model ProiectBD.Pages.Animale.AnimaleModel
+@{
+}
+
+<br />
+<h2>Lista Animale</h2>
+<br />
+<a class='btn btn-primary btn-sm' href='/Animale/Create'>Animal Nou</a>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Specie</th>
+            <th>Rasa</th>
+            <th>Varsta</th>
+            <th>Sex</th>
+            <th>Pret</th>
+            <th>Stoc</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.listAnimal)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.specie</td>
+                <td>@item.rasa</td>
+                <td>@item.varsta</td>
+                <td>@item.sex</td>
+                <td>@item.pret</td>
+                <td>@item.stoc</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Animale/Edit?id=@item.id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Animale/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a class="btn btn-primary btn-sm" href="/Meniu/Meniu">Inapoi la Meniu</a>
+<a class="btn btn-primary btn-sm" href="/Animale/Informatii">Informatii aditionale</a>

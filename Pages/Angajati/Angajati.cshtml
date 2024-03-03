@@ -1,0 +1,38 @@
+﻿@page
+@model ProiectBD.Pages.Angajati.AngajatiModel
+@{
+}
+
+<br />
+<h2>Lista Angajati</h2>
+<br />
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Angajat</th>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Functie</th>
+            <th>ID Departament</th>
+            <th>Numar de telefon</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listAngajati)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.nume</td>
+                <td>@item.prenume</td>
+                <td>@item.functie</td>
+                <td>@item.idDepartament</td>
+                <td>@item.nrTelefon</td>
+                <td>@item.email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br /><a class="btn btn-primary btn-sm" href="/Meniu/Meniu">Inapoi la Meniu</a>
+<a class="btn btn-primary btn-sm" href="/Angajati/Informatii">Informatii aditionale</a>

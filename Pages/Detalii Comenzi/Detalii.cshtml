@@ -1,0 +1,35 @@
+﻿@page
+@model ProiectBD.Pages.Detalii_Comenzi.DetaliiModel
+@{
+}
+<br />
+<h2>Lista Detalii Comanda</h2>
+<br />
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Detalii</th>
+            <th>ID Comanda</th>
+            <th>ID Animal </th>
+            <th>ID Hrana</th>
+            <th>*buc Animale</th>
+            <th>*buc Hrana</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listDetalii)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.idComanda</td>
+                <td>@item.idAnimal</td>
+                <td>@item.idHrana</td>
+                <td>@item.cantitateA</td>
+                <td>@item.cantitateH</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a class="btn btn-primary btn-sm" href="/Meniu/Meniu">Inapoi la Meniu</a>

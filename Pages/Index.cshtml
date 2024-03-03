@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Log in</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>O sa am un login</p>
+    <h2>Lista Animale</h2>
+    <a class='btn btn-primary btn-sm' href='/Animale/Animale'>Animal Nou</a>
+    <br />
+    <form method="POST">
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">User</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="name" value="" />
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Parola</label>
+            <div class="col-sm-6">
+                <input type="password" class="form-control" name="name" value="" />
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <button type="submit" class ='btn btn-primary' href='/Animale/Animale'>Animal Nou</a>
+            </div>
+        </div>
+    </form>
+        
+
+</div>
