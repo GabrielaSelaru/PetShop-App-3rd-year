@@ -1,6 +1,6 @@
 # PetShop-App-3rd-year
 ## Aplicatie cu baze de date relationale avand interfata vizuala
-###Etapele proiectului:
+### Etapele proiectului:
 * Definirea cerintelor pentru aplicatia aleasa: lista functionalitatilor, identificarea
 componentelor
 * Proiectarea bazei de date (minim 5 tabele – fara a lua in calcul tabelele de legatura, minim
