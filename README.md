@@ -15,3 +15,5 @@ componentelor
   * Update (la minim 2 tabele)
   * Delete (la minim 2 tabele)
   * Interogari simple [minim 6 – care presupun interogari la doua sau mai multe tabele (JOIN)] si complexe [minim 4 – care presupun subcereri]
+
+# Proiectul se regaseste pe branch-ul master
